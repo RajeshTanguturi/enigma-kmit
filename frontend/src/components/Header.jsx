@@ -24,15 +24,15 @@ const Header = ({ logout }) => {
         <li>
           <Link to={"/mri"}>scan MRI</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to={"/xray"}>scan X-Ray</Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to={"/services"}>Services</Link>
         </li>
         <li>
           <Link to={"/aboutUs"}>About Us</Link>
-        </li>
+        </li> */}
         <li>
           <Link to={"/feedback"}>Feedback</Link>
         </li>

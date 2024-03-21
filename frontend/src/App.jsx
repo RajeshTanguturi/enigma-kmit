@@ -6,7 +6,12 @@ import Home from "./pages/Home";
 import User from "./pages/User";
 import Guest from "./pages/Guest";
 import Footer from "./components/Footer";
-import Test from "./components/Test";
+// import Test from "./components/Test";
+// import FileUpload from "./components/FileUpload";
+import ScanMri from "./pages/ScanMri";
+import Report from "./pages/Report"
+import Feedback from "./pages/Feedback";
+import Notfound from "./components/Notfound";
 function App() {
   return (
     <div className="App">
@@ -17,7 +22,11 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/guest" element={ <Guest /> } />
-        <Route path="/test" element={ <Test /> } />   
+        <Route path="/mri" element={ <ScanMri /> } />
+        <Route path="/feedback" element={ <Feedback /> } />   
+        <Route path="/result" element={ <Report /> } /> 
+        <Route path= "*" element={ <Notfound /> } />   
+
       </Routes>
       <Footer />
     </div>

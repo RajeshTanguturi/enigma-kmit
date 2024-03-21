@@ -10,8 +10,8 @@ const Home = () => {
           <h1>Scan Savvy</h1>
           <p>Medical Image Interpretation Redefined with Machine Learning</p>
           <br />
-          <Link id="guestredirect" to={"/guest"}>
-            continue as Guest
+          <Link id="guestredirect" to={"/mri"}>
+            Scan MRI
           </Link>
 
         </main>
